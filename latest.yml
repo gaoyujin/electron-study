@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: electron-study-Setup-1.0.0.exe
+    sha512: 6jA6z03Pzq9aAzo8hkGyFHWddJx3PY9mmNv8Poei5a1pBBg8eDyENWUWH28s8QC+1ZFrnuJ6eXN/VmqzuDV7QQ==
+    size: 159980762
+path: electron-study-Setup-1.0.0.exe
+sha512: 6jA6z03Pzq9aAzo8hkGyFHWddJx3PY9mmNv8Poei5a1pBBg8eDyENWUWH28s8QC+1ZFrnuJ6eXN/VmqzuDV7QQ==
+releaseDate: '2025-03-28T09:11:28.030Z'
