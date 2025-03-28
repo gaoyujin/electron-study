@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+log
+code
+
+yarn.lock
+npm-debug.log*
+.pnpm-error.log*
+.pnpm-debug.log
+tests/**/coverage/

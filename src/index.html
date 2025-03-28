@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>多标签浏览器</title>
+    <style>
+      #message-container {
+        margin: 20px;
+      }
+      button {
+        margin: 5px;
+        padding: 8px 15px;
+        cursor: pointer;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+      button:hover {
+        background-color: #3367d6;
+      }
+      #update-status {
+        margin-top: 10px;
+        color: #333;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .progress-bar {
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        margin-top: 10px;
+        display: none;
+      }
+      .progress {
+        height: 10px;
+        background-color: #4caf50;
+        border-radius: 4px;
+        width: 0%;
+        transition: width 0.3s;
+      }
+      .release-notes {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        border-left: 4px solid #4285f4;
+      }
+      .release-notes h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        color: #4285f4;
+      }
+      .release-notes p {
+        margin: 0;
+        white-space: pre-line;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message-container">
+      <button id="open-btn">打开窗体</button>
+      <button id="check-update-btn">检测更新</button>
+      <div id="update-status"></div>
+      <div class="progress-bar" id="download-progress-container">
+        <div class="progress" id="download-progress"></div>
+      </div>
+    </div>
+    <!-- 使用外部脚本文件 -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
